@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  @apply px-1 md:px-4 mx-auto max-w-[1320px];
+  @apply px-1 md:px-6 mx-auto max-w-[1320px];
 }
 .hide-scrollbar {
   scrollbar-width: none; /* Firefox */

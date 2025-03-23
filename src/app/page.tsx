@@ -2,6 +2,10 @@ import HeroAction from "@/components/HeroAction";
 import HeroMain from "@/components/HeroMain";
 import Navbar from "@/components/Navbar";
 import OurClients from "@/components/OurClients";
+import PlatformSection from "@/components/PlatformSection";
+import ProductiveSection from "@/components/ProductiveSection";
+import SecurityClients from "@/components/SecurityClients";
+import SecuritySection from "@/components/SecuritySection";
 
 export default function Home() {
   return (
@@ -10,6 +14,10 @@ export default function Home() {
       <HeroAction />
       <HeroMain />
       <OurClients />
+      <ProductiveSection />
+      <SecuritySection />
+      <SecurityClients />
+      <PlatformSection />
     </div>
   );
 }

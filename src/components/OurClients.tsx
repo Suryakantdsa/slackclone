@@ -1,5 +1,4 @@
-// components/OurClients.js
-import React from "react";
+import BrandHOC from "./BrandHOC";
 
 const OurClients = () => {
   const clients = [
@@ -28,20 +27,13 @@ const OurClients = () => {
       name: "Etsy",
       logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-etsy-small.png",
     },
+    {
+      name: "vodafone",
+      logo: "https://slack.com/marketing/img/logos/company/_color/vodafone-logo.png",
+    },
   ];
 
-  return (
-    <div className="container my-10">
-      {/* <h2>Our Clients</h2> */}
-      <div className="flex w-full justify-center md:justify-between items-center flex-wrap gap-4 ">
-        {clients.map((client, index) => (
-          <div key={index} className="">
-            <img src={client.logo} alt={client.name} />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+  return <BrandHOC brands={clients} />;
 };
 
 export default OurClients;
