@@ -3,7 +3,7 @@ import { X, MoveRight } from "lucide-react";
 
 const HeroAction = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 hidden sm:block">
       <div className="flex w-full justify-between items-center bg-secondary-500 text-white font-semibold p-4 sm:p-6 rounded-full">
         <p className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-sm sm:text-base lg:text-lg">
           <span className="text-center sm:text-left">

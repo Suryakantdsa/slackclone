@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [isOpen, SetIsOpen] = useState(false);
   return (
-    <nav className=" w-full py-1">
+    <nav className=" w-full py-1 shadow-xl">
       <div className="container mx-auto">
         <div className="flex w-full justify-between items-center">
           <div className="flex items-center">

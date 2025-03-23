@@ -39,18 +39,18 @@ const SectionHOC = ({
               <h1 className="font-bold text-3xl tracking-tight leading-9 ">
                 {title}
               </h1>
-              <ul className="flex gap-4 flex-col mt-6 w-full">
+              <div className="flex gap-4 flex-col mt-6 w-full">
                 {listItems?.map((item) => (
-                  <li key={item} className="flex gap-3 ">
+                  <div key={item} className="flex gap-2">
                     <CircleCheck
                       fill={color}
-                      className="w-8 h-8"
+                      className="w-6 h-6"
                       color="white"
                     />{" "}
-                    <span className="tracking-wider">{item}</span>
-                  </li>
+                    <span className="tracking-wider w-[90%]">{item}</span>
+                  </div>
                 ))}
-              </ul>
+              </div>
               <div className="mt-6 flex items-center gap-2 text-secondary-500 text-lg cursor-pointer">
                 <h2>{learnMore}</h2>
                 <MoveRight className="w-4 h-4 sm:w-5 sm:h-5" />

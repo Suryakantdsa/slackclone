@@ -1,6 +1,10 @@
+import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
+import FooterBottom from "@/components/FooterBottom";
 import HeroAction from "@/components/HeroAction";
 import HeroMain from "@/components/HeroMain";
 import Navbar from "@/components/Navbar";
+import NextStep from "@/components/NextStep";
 import OurClients from "@/components/OurClients";
 import PlatformSection from "@/components/PlatformSection";
 import ProductiveSection from "@/components/ProductiveSection";
@@ -18,6 +22,10 @@ export default function Home() {
       <SecuritySection />
       <SecurityClients />
       <PlatformSection />
+      <NextStep />
+      <FAQSection />
+      <Footer />
+      <FooterBottom />
     </div>
   );
 }

@@ -4,23 +4,21 @@ import React from "react";
 const HeroMain = () => {
   return (
     <div className="container mt-10 font-inter">
-      <div className="flex justify-between  flex-col md:flex-row md:px-10 px-2">
+      <div className="flex justify-between flex-col md:flex-row md:px-10 px-2 sm:items-center">
         <div className="sm:text-center lg:text-left">
-          <h1 className="text-3xl tracking-normal  font-extrabold text-gray-900 sm:text-5xl md:text-5xl w-[70%]">
-            <span className="block xl:inline  ">
-              Slack is where the future works
-            </span>{" "}
+          <h1 className="text-4xl tracking-normal  font-extrabold text-gray-900 sm:text-5xl md:text-5xl ">
+            <span className=" ">Slack is where the future works</span>{" "}
           </h1>
           <p className="mt-3 text-base text-gray-400  sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
             Transform the way you work with one place for everyone and
             everything you need to get stuff done.
           </p>
-          <div className="flex w-full justify-start items-center gap-4 mt-5">
-            <button className=" bg-primary-500 text-white px-4 py-2 md:px-8 md:py-4  text-sm ">
+          <div className="flex flex-col sm:flex-row w-full justify-start items-center gap-4 mt-5 ">
+            <button className=" bg-primary-500 text-white p-3 text-sm w-full sm:w-auto ">
               TRY FOR FREE
             </button>
-            <div className=" text-primary-500  p-1  text-sm  flex border items-center gap-2 justify-start bg-secondary-400">
-              <span className="h-full p-3 bg-white">
+            <div className=" text-primary-500 p-1 text-sm flex border items-center gap-2 justify-center sm:justify-start bg-secondary-400 w-full sm:w-auto">
+              <span className="h-full p-2.5 bg-white">
                 <Image
                   src={"/google_logo.png"}
                   width={20}
