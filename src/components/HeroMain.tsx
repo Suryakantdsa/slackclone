@@ -37,7 +37,7 @@ const HeroMain = () => {
           <video
             height="344"
             width="500"
-            className=" rounded-lg"
+            className=" rounded-lg mt-10 md:mt-0"
             title="Team discussing work in the Slack app"
             poster="https://a.slack-edge.com/0cedc3b/marketing/img/homepage/true-prospects/hero-revamp/static/hero@2x.IN.jpg"
             autoPlay // Autoplay the video

@@ -7,10 +7,7 @@ const OurClients = () => {
       name: "New York Times",
       logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nyt-small.png",
     },
-    {
-      name: "Etsy",
-      logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-etsy-small.png",
-    },
+
     {
       name: "NASA",
       logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nasa-small.png",
@@ -39,12 +36,7 @@ const OurClients = () => {
       <div className="flex w-full justify-between items-center ">
         {clients.map((client, index) => (
           <div key={index} className="">
-            <img
-              src={client.logo}
-              alt={client.name}
-              width={100} // Adjust size as needed
-              height={90} // Adjust size as needed
-            />
+            <img src={client.logo} alt={client.name} width={100} height={90} />
           </div>
         ))}
       </div>
