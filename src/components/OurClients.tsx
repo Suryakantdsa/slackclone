@@ -17,8 +17,8 @@ const OurClients = () => {
       logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-uber-small.png",
     },
     {
-      name: "NASA",
-      logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-nasa-small.png",
+      name: "Target",
+      logo: "https://a.slack-edge.com/a4c4a15/marketing/img/homepage/true-prospects/revamp-exp/logos/logo-target-small.png",
     },
     {
       name: "Airbnb",
@@ -31,12 +31,12 @@ const OurClients = () => {
   ];
 
   return (
-    <div className="container mt-10">
+    <div className="container my-10">
       {/* <h2>Our Clients</h2> */}
-      <div className="flex w-full justify-between items-center ">
+      <div className="flex w-full justify-center md:justify-between items-center flex-wrap gap-4 ">
         {clients.map((client, index) => (
           <div key={index} className="">
-            <img src={client.logo} alt={client.name} width={100} height={90} />
+            <img src={client.logo} alt={client.name} />
           </div>
         ))}
       </div>
