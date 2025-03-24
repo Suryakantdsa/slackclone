@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className=" w-full py-1 shadow-xl">
       <div className="container mx-auto">
-        <div className="flex w-full justify-between items-center">
+        <div className="flex w-full justify-between items-center px-2">
           <div className="flex items-center">
             <Image
               src={"/slack_logo.jpg"}
