@@ -4,7 +4,7 @@ const FooterBottom = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-2">
           <div>
             <h3 className="font-bold text-lg mb-4">About Slack</h3>
             <ul className="space-y-2">
