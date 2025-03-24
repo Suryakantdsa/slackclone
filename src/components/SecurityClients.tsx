@@ -31,7 +31,7 @@ const SecurityClients = () => {
 
   return (
     <div className="container py-24">
-      <div className="flex w-full justify-center md:justify-between items-center flex-wrap gap-4 px-12">
+      <div className="flex w-full justify-center md:justify-between items-center flex-wrap gap-4 px-2 md:px-12">
         {clients.map((client, index) => (
           <div key={index}>
             <img src={client.logo} alt={client.name} className="w-auto h-16" />{" "}
